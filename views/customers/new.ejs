@@ -1,1 +1,7 @@
-New Customer
+<h2>New Customer</h2>
+<form action="/customers" method="POST">
+    <%- include('_form_fields') %>
+
+    <a href="/customers">Cancel</a>
+    <button type="submit">Add Customer</button>
+</form> <!-- this will send a post request to the server -->

@@ -11,12 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^2.7.3",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
     "heroku": "^7.35.0",
     "language": "^0.4.0",
     "mongoose": "^5.7.11",
+    "nodemon": "^2.0.1",
     "support": "^1.1.4"
   },
   "devDependencies": {
