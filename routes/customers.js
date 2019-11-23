@@ -4,7 +4,7 @@ const Customer = require('../models/customer'); //this is going to give us acces
 
 // all customers route
 router.get('/', async (req, res) => {
-  let searchOptions = {}
+  let searchOptions = {};
   if (req.query.name != null && req.query.name !== ' ') {
     searchOptions.name = new RegExp(req.query.name, 'i')
   }
