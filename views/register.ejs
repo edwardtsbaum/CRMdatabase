@@ -1,0 +1,29 @@
+<head>
+    <meta charset="UTF-8">
+    <title>3200ImplementationRegister</title>
+    <<link href="/public/assets/css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        hr.class-1{
+            border-top: 50px solid #073763;
+        }
+    </style>
+</head>
+<body>
+<hr class = "class-1">
+<form action="/register" method="POST">
+    <div class = "login-page">
+        <div class = "form">
+            <form class = "register-form">
+                <h1><font face = "Candara Light" size = "6">
+                        Register</font><br /></h1>
+                <input type="text" id="name" name="name" placeholder="User Name" required/>
+                <input type="email" id="email" name="email" placeholder="Email" required/>
+                <input type="password" id="password" name="password" placeholder="Password" required/>
+                <button type = "submit">Create</button>
+                <p class = "message">Already Registered? <a href = "/login">Sign In</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</form>
+</body>

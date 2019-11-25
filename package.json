@@ -11,14 +11,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "body-parser": "^1.19.0",
     "ejs": "^2.7.3",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
     "heroku": "^7.35.0",
     "language": "^0.4.0",
+    "method-override": "^3.0.0",
     "mongoose": "^5.7.11",
     "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "support": "^1.1.4"
   },
   "devDependencies": {
